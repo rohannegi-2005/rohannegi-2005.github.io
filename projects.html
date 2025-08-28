@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Rohan Negi</title>
+    <meta name="description" content="A collection of innovative projects by Rohan Negi, showcasing expertise in Python, Machine Learning, and web development.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-background text-text selection:bg-accent selection:text-white">
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div id="particles-js"></div>
+
+    <header id="header" class="fixed top-0 left-0 w-full z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-accent tracking-wider">RN.</a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06zM12 21.75a.75.75 0 01-.75-.75v-2.25a.75.75 0 011.5 0v2.25a.75.75 0 01-.75.75zM5.106 17.894a.75.75 0 010-1.06l1.591-1.59a.75.75 0 111.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM2.25 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zM6.106 5.106a.75.75 0 011.06 0l1.59 1.591a.75.75 0 01-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06z"/></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.472-.69a.75.75 0 01.819.162l.805.805a.75.75 0 01-.162.819A10.5 10.5 0 119.528 1.718z" clip-rule="evenodd" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main class="relative z-10 pt-32">
+        <section id="projects" class="py-12">
+            <div class="container mx-auto px-6">
+                 <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                    <div class="text-center md:text-left">
+                        <h2 class="section-title !text-left !inline-block">Projects</h2>
+                        <p class="mt-4 text-lg text-slate-300">A collection of innovative and well-crafted solutions, demonstrating expertise through efficient execution and forward-thinking approaches.</p>
+                    </div>
+                    <div class="hidden md:flex justify-center">
+                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/project-management-4433854-3718509.png" alt="Projects Illustration" class="max-w-sm w-full">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="project-card-new">
+                        <h3 class="project-title-new">Resume Screening Tool</h3>
+                        <p class="project-desc-new">Built an intelligent resume screening tool in Python using NLP, regex, and Streamlit to process hundreds of resumes and automate candidate shortlisting.</p>
+                        <div class="project-tech-new">
+                            <i class="devicon-python-plain" title="Python"></i>
+                            <span title="NLP"> NLP </span>
+                            <span title="Streamlit">🚀</span>
+                        </div>
+                        <div class="project-links-new">
+                            <a href="https://github.com/rohannegi-2005/Resume_Scanner" target="_blank" class="project-link-new" aria-label="GitHub"><i class="devicon-github-original"></i></a>
+                            <a href="https://resumescanner-h4dxepxy8dyxs6txvgjazj.streamlit.app/" target="_blank" class="project-link-new" aria-label="Live Demo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3h8z"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card-new">
+                        <h3 class="project-title-new">SmartKhata System</h3>
+                        <p class="project-desc-new">Developed an intelligent debt tracking application using Streamlit, Google Speech API, Firebase, and Gemini AI. Enabled real-time extraction of customer, item, and amount from speech, with interactive dashboards for visualizing trends.</p>
+                        <div class="project-tech-new">
+                            <span title="Streamlit">🚀</span>
+                            <span title="Google Speech API">🗣️</span>
+                            <i class="devicon-firebase-plain" title="Firebase"></i>
+                            <span title="Gemini AI">✨</span>
+                        </div>
+                        <div class="project-links-new">
+                             <a href="https://github.com/rohannegi-2005/SmartKhata" target="_blank" class="project-link-new" aria-label="GitHub"><i class="devicon-github-original"></i></a>
+                             <a href="#" target="_blank" class="project-link-new" aria-label="Live Demo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3h8z"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+</body>
+</html>
