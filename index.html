@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta -->
+    <title>Rohan Negi — AI/ML Engineer & Data Scientist</title>
+    <meta name="description" content="Rohan Negi builds production-deployed AI systems — from voice-driven data pipelines to NLP automation tools. CSE student at UPES | AWS Certified | Python, ML, LangChain.">
+    <meta name="keywords" content="Rohan Negi, Data Science, Machine Learning, AI Engineer, Python Developer, NLP, LLM, Streamlit, Firebase, AWS, UPES">
+    <meta name="author" content="Rohan Negi">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rohannegi-2005.github.io/">
+    <meta property="og:title" content="Rohan Negi — AI/ML Engineer & Data Scientist">
+    <meta property="og:description" content="Building production AI systems that solve real problems. SmartKhata processed voice transactions in under 5s. Resume Scanner cut screening time by 60%.">
+    <meta property="og:image" content="assets/images/profile/profile-photo.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rohan Negi — AI/ML Engineer">
+    <meta name="twitter:description" content="CSE student building production-deployed AI & ML systems.">
+    <meta name="twitter:image" content="assets/images/profile/profile-photo.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════ NOISE OVERLAY ═══════════════════════ -->
+    <div class="noise-overlay" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════ NAVIGATION ═══════════════════════ -->
+    <header id="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <a href="#hero" class="nav-logo" aria-label="Rohan Negi - Home">RN<span class="logo-dot">.</span></a>
+
+            <ul class="nav-links" role="list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="assets/resume/Rohan_Negi_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume" aria-label="Download Resume">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Resume
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation" hidden>
+            <ul role="list">
+                <li><a href="#about" class="mobile-link">About</a></li>
+                <li><a href="#skills" class="mobile-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-link">Projects</a></li>
+                <li><a href="#experience" class="mobile-link">Experience</a></li>
+                <li><a href="#education" class="mobile-link">Education</a></li>
+                <li><a href="#contact" class="mobile-link">Contact</a></li>
+                <li><a href="assets/resume/Rohan_Negi_Resume.pdf" target="_blank" class="mobile-link mobile-resume">↓ Download Resume</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ═══════════════════════ HERO ═══════════════════════ -->
+        <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+            <div class="hero-bg-grid" aria-hidden="true"></div>
+            <div class="hero-bg-glow" aria-hidden="true"></div>
+
+            <div class="hero-container">
+                <div class="hero-badge" aria-label="Status">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    Available for Internships & Full-time Roles
+                </div>
+
+                <h1 id="hero-heading" class="hero-heading">
+                    <span class="hero-name">Rohan Negi</span>
+                    <span class="hero-title">builds AI systems<br>that ship to production.</span>
+                </h1>
+
+                <p class="hero-desc">
+                    CSE student at UPES · Python, ML, NLP, LLMs, AWS ·
+                    Reduced hiring screening time by 60%. Processed voice transactions in under 5 seconds.
+                    Not just experiments — deployed products.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="#contact" class="btn-ghost">Get in Touch</a>
+                </div>
+
+                <div class="hero-stats" role="list" aria-label="Key metrics">
+                    <div class="stat" role="listitem">
+                        <span class="stat-num">4+</span>
+                        <span class="stat-label">Production Deployments</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-num">60%</span>
+                        <span class="stat-label">Screening Time Reduced</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-num">100+</span>
+                        <span class="stat-label">LeetCode Problems</span>
+                    </div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-num">&lt;5s</span>
+                        <span class="stat-label">Voice-to-DB Pipeline</span>
+                    </div>
+                </div>
+
+                <div class="hero-socials" aria-label="Social links">
+                    <a href="https://github.com/rohannegi-2005" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohan-negi-2005-" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.kaggle.com/rohannegi18181" target="_blank" rel="noopener noreferrer" aria-label="Kaggle Profile" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.336z"/></svg>
+                    </a>
+                    <a href="https://leetcode.com/u/Rohann_18/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode Profile" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 5.844a.75.75 0 0 1-1.06 0L.438.219a1.374 1.374 0 0 0-1.922 1.922l5.406 5.406a.75.75 0 0 1 0 1.06L.438 14.013a1.374 1.374 0 0 0 1.922 1.921l5.598-5.598a.75.75 0 0 1 1.06 0l5.598 5.598a1.374 1.374 0 0 0 1.922-1.921l-5.406-5.406a.75.75 0 0 1 0-1.06l5.406-5.406A1.374 1.374 0 0 0 13.483 0z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-scroll-hint" aria-hidden="true">
+                <span>scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+        <section id="about" class="section" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-photo-col">
+                        <div class="photo-wrapper">
+                            <img
+                                src="assets/images/profile/profile-photo.jpg"
+                                alt="Rohan Negi - AI/ML Engineer and Data Science Student"
+                                class="profile-photo"
+                                loading="lazy"
+                                width="320"
+                                height="320"
+                            >
+                            <div class="photo-border" aria-hidden="true"></div>
+                        </div>
+                        <div class="quick-facts" role="list" aria-label="Quick facts">
+                            <div class="quick-fact" role="listitem">
+                                <span class="qf-icon" aria-hidden="true">📍</span>
+                                <span>Lucknow / Dehradun, India</span>
+                            </div>
+                            <div class="quick-fact" role="listitem">
+                                <span class="qf-icon" aria-hidden="true">🎓</span>
+                                <span>B.Tech CSE @ UPES (2023–2027)</span>
+                            </div>
+                            <div class="quick-fact" role="listitem">
+                                <span class="qf-icon" aria-hidden="true">☁️</span>
+                                <span>AWS Intern · Cloud + MLOps</span>
+                            </div>
+                            <div class="quick-fact" role="listitem">
+                                <span class="qf-icon" aria-hidden="true">⚡</span>
+                                <span>Open to DS / ML / AI Engineering Roles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content-col">
+                        <div class="section-label" aria-hidden="true">// about</div>
+                        <h2 id="about-heading" class="section-heading">From idea to deployed product.</h2>
+                        <div class="about-body">
+                            <p>
+                                I'm a Computer Science undergraduate at UPES specializing in Data Science, with a focus on building AI systems that go beyond notebooks — systems that run in production, handle real data, and solve real problems.
+                            </p>
+                            <p>
+                                My work spans NLP pipelines, LLM-powered applications, voice-driven data entry, and cloud deployments on AWS. I built SmartKhata to digitize Udhaar tracking for local shopkeepers using voice + AI. I engineered a resume screening system that processes 100+ CVs in under 60 seconds. Both are live and usable today.
+                            </p>
+                            <p>
+                                I care about the full loop — designing the system, writing clean Python, deploying it, and making it fast. Currently exploring LangChain, RAG architectures, and ML deployment pipelines.
+                            </p>
+                        </div>
+
+                        <div class="recruiter-strip" role="region" aria-label="Recruiter quick view">
+                            <div class="rs-label">Recruiter quick view</div>
+                            <div class="rs-items">
+                                <div class="rs-item">
+                                    <span class="rs-key">Role</span>
+                                    <span class="rs-val">DS / ML / AI Intern or FTE</span>
+                                </div>
+                                <div class="rs-item">
+                                    <span class="rs-key">Core Stack</span>
+                                    <span class="rs-val">Python · Scikit-learn · LangChain · AWS</span>
+                                </div>
+                                <div class="rs-item">
+                                    <span class="rs-key">Deployed</span>
+                                    <span class="rs-val">4 production applications (Streamlit + Vercel)</span>
+                                </div>
+                                <div class="rs-item">
+                                    <span class="rs-key">DSA</span>
+                                    <span class="rs-val">100+ LeetCode · 50-day active badge</span>
+                                </div>
+                                <div class="rs-item">
+                                    <span class="rs-key">Email</span>
+                                    <span class="rs-val"><a href="mailto:rohannnegi2005@gmail.com">rohannnegi2005@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+        <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label" aria-hidden="true">// skills</div>
+                    <h2 id="skills-heading" class="section-heading">Technical toolkit.</h2>
+                    <p class="section-subtext">Technologies I work with daily, and the ones I'm actively building depth in.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title">
+                            <span class="skill-cat-icon" aria-hidden="true">🐍</span>
+                            Languages
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-primary">Python</span>
+                            <span class="skill-tag skill-primary">SQL</span>
+                            <span class="skill-tag">R</span>
+                            <span class="skill-tag">Bash</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title">
+                            <span class="skill-cat-icon" aria-hidden="true">🧠</span>
+                            ML / AI
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-primary">Scikit-learn</span>
+                            <span class="skill-tag skill-primary">LangChain</span>
+                            <span class="skill-tag skill-primary">NLP / Word2Vec</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">RAG Systems</span>
+                            <span class="skill-tag">LLM Prompting</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title">
+                            <span class="skill-cat-icon" aria-hidden="true">🛠️</span>
+                            Frameworks & Tools
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-primary">Streamlit</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Git / GitHub</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title">
+                            <span class="skill-cat-icon" aria-hidden="true">☁️</span>
+                            Cloud & Infrastructure
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag skill-primary">AWS EC2</span>
+                            <span class="skill-tag skill-primary">AWS S3</span>
+                            <span class="skill-tag">AWS Lambda</span>
+                            <span class="skill-tag">AWS IAM</span>
+                            <span class="skill-tag">CodePipeline</span>
+                            <span class="skill-tag">ElasticBeanstalk</span>
+                            <span class="skill-tag skill-primary">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-bar-section" aria-label="Skill proficiency levels">
+                    <h3 class="skills-bar-title">Proficiency depth</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="sb-meta">
+                                <span class="sb-name">Python & Data Engineering</span>
+                                <span class="sb-pct">90%</span>
+                            </div>
+                            <div class="sb-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Python skill level 90%">
+                                <div class="sb-fill" style="--target: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="sb-meta">
+                                <span class="sb-name">Machine Learning & NLP</span>
+                                <span class="sb-pct">82%</span>
+                            </div>
+                            <div class="sb-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="ML/NLP skill level 82%">
+                                <div class="sb-fill" style="--target: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="sb-meta">
+                                <span class="sb-name">LLM / GenAI Applications</span>
+                                <span class="sb-pct">75%</span>
+                            </div>
+                            <div class="sb-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="LLM skill level 75%">
+                                <div class="sb-fill" style="--target: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="sb-meta">
+                                <span class="sb-name">AWS Cloud & Deployment</span>
+                                <span class="sb-pct">70%</span>
+                            </div>
+                            <div class="sb-track" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="AWS skill level 70%">
+                                <div class="sb-fill" style="--target: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="sb-meta">
+                                <span class="sb-name">SQL & Data Analysis</span>
+                                <span class="sb-pct">78%</span>
+                            </div>
+                            <div class="sb-track" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="SQL skill level 78%">
+                                <div class="sb-fill" style="--target: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+        <section id="projects" class="section" aria-labelledby="projects-heading">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label" aria-hidden="true">// projects</div>
+                    <h2 id="projects-heading" class="section-heading">Things I've shipped.</h2>
+                    <p class="section-subtext">Not side projects. Production-deployed applications with real users and measurable impact.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: SmartKhata -->
+                    <article class="project-card project-featured" aria-label="SmartKhata project">
+                        <div class="pc-header">
+                            <div class="pc-number" aria-hidden="true">01</div>
+                            <div class="pc-badge">Featured</div>
+                        </div>
+                        <h3 class="pc-title">SmartKhata</h3>
+                        <p class="pc-tagline">Voice-Driven Udhaar Management for Small Businesses</p>
+                        <p class="pc-desc">
+                            Built a production-deployed system that lets small shopkeepers record credit transactions by speaking in Hindi or English. An end-to-end pipeline converts speech → text → structured JSON via LLM extraction, stores to Firebase in real-time, and surfaces analytics dashboards.
+                        </p>
+
+                        <div class="pc-metrics" role="list" aria-label="Project metrics">
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">&lt;5s</span>
+                                <span class="metric-label">Voice to DB</span>
+                            </div>
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">~40%</span>
+                                <span class="metric-label">Fewer Entry Errors</span>
+                            </div>
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">Live</span>
+                                <span class="metric-label">Deployed</span>
+                            </div>
+                        </div>
+
+                        <div class="pc-stack" aria-label="Technologies used">
+                            <span class="stack-tag">Python</span>
+                            <span class="stack-tag">Streamlit</span>
+                            <span class="stack-tag">Firebase</span>
+                            <span class="stack-tag">Google Speech API</span>
+                            <span class="stack-tag">LLaMA 3.1</span>
+                            <span class="stack-tag">Plotly</span>
+                        </div>
+
+                        <div class="pc-links">
+                            <a href="https://smartkhata-rrzrwyaqjpaspzfvhnmigk.streamlit.app/" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-primary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/rohannegi-2005/SmartKhata" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-secondary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Resume Screener -->
+                    <article class="project-card" aria-label="AI Resume Screening project">
+                        <div class="pc-header">
+                            <div class="pc-number" aria-hidden="true">02</div>
+                        </div>
+                        <h3 class="pc-title">AI Resume Screening System</h3>
+                        <p class="pc-tagline">NLP-Powered Candidate Shortlisting at Scale</p>
+                        <p class="pc-desc">
+                            Automated the end-to-end hiring pipeline: bulk resume ingestion, NLP-based skill matching using Word2Vec and FuzzyWuzzy, ranked shortlist generation exported to Excel. Processes over 100 resumes in under 60 seconds with consistent, bias-free scoring.
+                        </p>
+
+                        <div class="pc-metrics" role="list" aria-label="Project metrics">
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">100+</span>
+                                <span class="metric-label">Resumes / 60s</span>
+                            </div>
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">60%</span>
+                                <span class="metric-label">Time Saved</span>
+                            </div>
+                            <div class="metric" role="listitem">
+                                <span class="metric-val">Live</span>
+                                <span class="metric-label">Deployed</span>
+                            </div>
+                        </div>
+
+                        <div class="pc-stack" aria-label="Technologies used">
+                            <span class="stack-tag">Python</span>
+                            <span class="stack-tag">Word2Vec</span>
+                            <span class="stack-tag">FuzzyWuzzy</span>
+                            <span class="stack-tag">Regex</span>
+                            <span class="stack-tag">Streamlit</span>
+                            <span class="stack-tag">Excel</span>
+                        </div>
+
+                        <div class="pc-links">
+                            <a href="https://resumescanner-h4dxepxy8dyxs6txvgjazj.streamlit.app/" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-primary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/rohannegi-2005/Resume_Scanner" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-secondary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Jeera -->
+                    <article class="project-card" aria-label="Jeera project management tool">
+                        <div class="pc-header">
+                            <div class="pc-number" aria-hidden="true">03</div>
+                        </div>
+                        <h3 class="pc-title">Jeera — Project Management Tool</h3>
+                        <p class="pc-tagline">Jira-Inspired PM Dashboard Built & Deployed on Vercel</p>
+                        <p class="pc-desc">
+                            A full-stack project management application with sprint tracking, task boards, and team collaboration features. Built as a functional Jira alternative and deployed on Vercel — demonstrating full-stack thinking beyond typical data science projects.
+                        </p>
+
+                        <div class="pc-stack" aria-label="Technologies used">
+                            <span class="stack-tag">Full Stack</span>
+                            <span class="stack-tag">Vercel</span>
+                            <span class="stack-tag">Task Management</span>
+                            <span class="stack-tag">Sprint Boards</span>
+                        </div>
+
+                        <div class="pc-links">
+                            <a href="https://jira-seven-psi.vercel.app" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-primary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/rohannegi-2005/Jeera" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-secondary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Factoscope -->
+                    <article class="project-card" aria-label="Factoscope News Agent">
+                        <div class="pc-header">
+                            <div class="pc-number" aria-hidden="true">04</div>
+                        </div>
+                        <h3 class="pc-title">Factoscope — AI News Agent</h3>
+                        <p class="pc-tagline">Real-Time News Aggregation & AI Analysis Platform</p>
+                        <p class="pc-desc">
+                            A multi-source news intelligence platform that aggregates articles, applies AI-driven analysis for bias detection and fact summarization, and surfaces insights in real-time. Collaborative project demonstrating AI agent architecture with a live custom domain deployment.
+                        </p>
+
+                        <div class="pc-stack" aria-label="Technologies used">
+                            <span class="stack-tag">AI Agents</span>
+                            <span class="stack-tag">News API</span>
+                            <span class="stack-tag">NLP</span>
+                            <span class="stack-tag">Python</span>
+                            <span class="stack-tag">Custom Domain</span>
+                        </div>
+
+                        <div class="pc-links">
+                            <a href="https://factoscope.info" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-primary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                factoscope.info
+                            </a>
+                            <a href="https://github.com/Madhur-Shrivastav/news-agent" target="_blank" rel="noopener noreferrer" class="pc-link pc-link-secondary">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Other projects note -->
+                <div class="more-projects">
+                    <p>Also built: PDF Insight AI (RAG/LangChain/AstraDB) · Fire Weather Index ML Pipeline (Flask + AWS CI/CD) · Duki Cards (Real-time multiplayer, Streamlit + Firebase)</p>
+                    <a href="https://github.com/rohannegi-2005" target="_blank" rel="noopener noreferrer" class="more-projects-link">
+                        View all on GitHub
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ EXPERIENCE ═══════════════════════ -->
+        <section id="experience" class="section section-alt" aria-labelledby="experience-heading">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label" aria-hidden="true">// experience</div>
+                    <h2 id="experience-heading" class="section-heading">Where I've worked.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item" aria-label="Papaya Coders internship">
+                        <div class="tl-marker" aria-hidden="true">
+                            <div class="tl-dot"></div>
+                            <div class="tl-line"></div>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-meta">
+                                <span class="tl-company">Papaya Coders Pvt. Ltd.</span>
+                                <span class="tl-period">Jun – Aug 2025 · 8 Weeks</span>
+                            </div>
+                            <h3 class="tl-role">AWS Cloud Management Intern</h3>
+                            <p class="tl-location">📍 Lucknow, India</p>
+                            <ul class="tl-bullets" role="list">
+                                <li>Deployed and managed cloud applications using EC2, S3, Lambda, and Elastic Beanstalk in production environments.</li>
+                                <li>Implemented IAM policies and cloud monitoring workflows to enforce security and observability standards.</li>
+                                <li>Worked with CodePipeline for CI/CD automation, reducing manual deployment steps in the release cycle.</li>
+                            </ul>
+                            <div class="tl-tags" aria-label="Skills used">
+                                <span class="tl-tag">AWS EC2</span>
+                                <span class="tl-tag">S3</span>
+                                <span class="tl-tag">Lambda</span>
+                                <span class="tl-tag">IAM</span>
+                                <span class="tl-tag">CodePipeline</span>
+                                <span class="tl-tag">ElasticBeanstalk</span>
+                            </div>
+                            <div class="tl-actions">
+                                <a href="https://drive.google.com/file/d/1XTegVqMfftHfpdt3SSJBIaocvquqrrf8/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="tl-btn">View Certificate ↗</a>
+                                <a href="https://papayacoders.in/" target="_blank" rel="noopener noreferrer" class="tl-btn">Company Site ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" aria-label="Animotel social internship">
+                        <div class="tl-marker" aria-hidden="true">
+                            <div class="tl-dot tl-dot-secondary"></div>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-meta">
+                                <span class="tl-company">Animotel Care Trust</span>
+                                <span class="tl-period">Jun – Aug 2024 · 8 Weeks</span>
+                            </div>
+                            <h3 class="tl-role">Social Internship</h3>
+                            <p class="tl-location">📍 India</p>
+                            <ul class="tl-bullets" role="list">
+                                <li>Contributed to animal welfare programs and environmental conservation initiatives across the organization.</li>
+                                <li>Coordinated community outreach activities and managed on-ground feeding programs for stray animals.</li>
+                            </ul>
+                            <div class="tl-actions">
+                                <a href="https://drive.google.com/file/d/1hH4tDxBgs2CNKSU8DFEd0rcQmR_Fneee/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="tl-btn">View Certificate ↗</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ EDUCATION & CERTS ═══════════════════════ -->
+        <section id="education" class="section" aria-labelledby="education-heading">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label" aria-hidden="true">// education</div>
+                    <h2 id="education-heading" class="section-heading">Academic background.</h2>
+                </div>
+
+                <div class="edu-grid">
+                    <article class="edu-card" aria-label="UPES education">
+                        <div class="edu-logo-wrap">
+                            <img src="assets/images/logos/upes-logo.png" alt="UPES Logo" class="edu-logo" loading="lazy" width="72" height="72">
+                        </div>
+                        <div class="edu-body">
+                            <h3 class="edu-degree">B.Tech in Computer Science & Engineering</h3>
+                            <p class="edu-institution">University of Petroleum & Energy Studies (UPES)</p>
+                            <p class="edu-location">Dehradun, Uttarakhand</p>
+                            <div class="edu-meta">
+                                <span class="edu-period">2023 – 2027</span>
+                                <span class="edu-grade">CGPA: 7.25 / 10</span>
+                            </div>
+                            <p class="edu-note">Data Science specialization · AWS · ML pipelines · NLP systems</p>
+                        </div>
+                    </article>
+
+                    <article class="edu-card" aria-label="Devbhumi education">
+                        <div class="edu-logo-wrap">
+                            <img src="assets/images/logos/dav-logo.png" alt="Devbhumi Public School Logo" class="edu-logo" loading="lazy" width="72" height="72">
+                        </div>
+                        <div class="edu-body">
+                            <h3 class="edu-degree">Senior Secondary — Science (CBSE)</h3>
+                            <p class="edu-institution">Devbhumi Public School</p>
+                            <p class="edu-location">Srinagar Garhwal, Uttarakhand</p>
+                            <div class="edu-meta">
+                                <span class="edu-period">2021 – 2023</span>
+                                <span class="edu-grade">83.3%</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certs-section" aria-labelledby="certs-heading">
+                    <h3 id="certs-heading" class="certs-title">Certifications & Achievements</h3>
+                    <div class="certs-grid">
+                        <div class="cert-card" role="article" aria-label="HackerRank Python certification">
+                            <div class="cert-icon" aria-hidden="true">🏆</div>
+                            <div class="cert-body">
+                                <h4 class="cert-name">Python (Intermediate)</h4>
+                                <p class="cert-issuer">HackerRank · Feb 2025</p>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+
+                        <div class="cert-card" role="article" aria-label="Microsoft Azure ML certification">
+                            <div class="cert-icon" aria-hidden="true">☁️</div>
+                            <div class="cert-body">
+                                <h4 class="cert-name">Azure Machine Learning Fundamentals</h4>
+                                <p class="cert-issuer">Microsoft via LinkedIn Learning · Feb 2026</p>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+
+                        <div class="cert-card" role="article" aria-label="100 Days of Python certification">
+                            <div class="cert-icon" aria-hidden="true">🐍</div>
+                            <div class="cert-body">
+                                <h4 class="cert-name">100 Days of Python Bootcamp</h4>
+                                <p class="cert-issuer">Udemy</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card" role="article" aria-label="SQL Bootcamp certification">
+                            <div class="cert-icon" aria-hidden="true">🗄️</div>
+                            <div class="cert-body">
+                                <h4 class="cert-name">The Complete SQL Bootcamp</h4>
+                                <p class="cert-issuer">Udemy</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card" role="article" aria-label="LeetCode achievement">
+                            <div class="cert-icon" aria-hidden="true">⚡</div>
+                            <div class="cert-body">
+                                <h4 class="cert-name">LeetCode 50-Day Active Badge</h4>
+                                <p class="cert-issuer">LeetCode · 100+ DSA Problems Solved</p>
+                            </div>
+                            <a href="https://leetcode.com/u/Rohann_18/" target="_blank" rel="noopener noreferrer" class="cert-link" aria-label="View LeetCode profile">↗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+        <section id="contact" class="section section-alt contact-section" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="section-label" aria-hidden="true">// contact</div>
+                    <h2 id="contact-heading" class="section-heading contact-heading">Let's build something.</h2>
+                    <p class="contact-desc">
+                        I'm actively seeking internship and full-time opportunities in Data Science, Machine Learning, and AI Engineering. If you're hiring or want to collaborate — reach out.
+                    </p>
+
+                    <div class="contact-options" role="list">
+                        <a href="mailto:rohannnegi2005@gmail.com" class="contact-card" role="listitem" aria-label="Send email">
+                            <div class="cc-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </div>
+                            <div class="cc-body">
+                                <span class="cc-label">Email</span>
+                                <span class="cc-value">rohannnegi2005@gmail.com</span>
+                            </div>
+                            <span class="cc-arrow" aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/rohan-negi-2005-" target="_blank" rel="noopener noreferrer" class="contact-card" role="listitem" aria-label="LinkedIn profile">
+                            <div class="cc-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </div>
+                            <div class="cc-body">
+                                <span class="cc-label">LinkedIn</span>
+                                <span class="cc-value">rohan-negi-2005</span>
+                            </div>
+                            <span class="cc-arrow" aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="https://github.com/rohannegi-2005" target="_blank" rel="noopener noreferrer" class="contact-card" role="listitem" aria-label="GitHub profile">
+                            <div class="cc-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                            </div>
+                            <div class="cc-body">
+                                <span class="cc-label">GitHub</span>
+                                <span class="cc-value">rohannegi-2005</span>
+                            </div>
+                            <span class="cc-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                    <div class="resume-cta" role="region" aria-label="Resume download">
+                        <p>Prefer to read the full resume?</p>
+                        <a href="assets/resume/Rohan_Negi_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <span class="footer-name">Rohan Negi</span>
+            <span class="footer-copy">© 2025 · Built with precision, not templates.</span>
+            <a href="#hero" class="footer-top" aria-label="Back to top">↑ top</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
